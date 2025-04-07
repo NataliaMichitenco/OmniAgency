@@ -1,0 +1,275 @@
+@media (max-width: 1468px) {
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    .header {
+        padding: 10px;
+    }
+    .header__logo {
+        width: 140px;
+    }
+    .header__logo_logotip{
+        width: 47%;
+    }
+    .header__nav_btn {
+        font-size: 16px;
+        padding: 8px;
+    }
+    .header__number_btn {
+        font-size: 16px;
+        padding: 8px;
+    }
+    .header__number p {
+        font-size: 16px;
+    }
+    .header__logo_text {
+        font-size: 10px;
+    }
+    .header__nav {
+        gap: 14px;
+    }
+    .header__number {
+        gap: 5px;
+    }
+    .header__number_language-ru { 
+        padding: 8px;
+    }
+    .header__number_language-en {
+        padding: 8px;
+    }
+    .header__nav_btn-open li {
+        font-size: 16px;
+    }
+
+    .banner__description_left-nav-breadcrumb li {
+        font-size: 16px;
+    }
+
+    .banner__description_left-nav-breadcrumb li {
+        font-size: 16px;
+    }
+    .banner__description_left-about-characteristics-designations {
+        font-size: 18px;
+    }
+    .banner__description_right-price {
+        font-size: 28px;
+    }
+    .banner__description_left-about-section li {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+
+    .contact__inputs {
+        padding: 24px 47px;
+    }
+    .contact__title_bg {
+        height: 305px;
+    }
+    .banner__description_left-about li:first-child {
+        padding: 12px 20px;
+    }
+
+    .footer__buttons_call {
+        font-size: 16px;
+        padding: 12px;
+    }
+    .footer__logo_rating-yandex {
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    main {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .banner__car_right {
+        display: none;
+    }
+
+    .header__nav { 
+        display: none;
+    }
+
+    .header__number p {
+        display: none;
+    }
+
+    .header__number {
+        display: none;
+    }
+    .header__burger {
+        display: flex;
+    }
+    .header__burger_btn{
+        padding: 8px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .banner__car {
+        height: 314px;
+
+    }
+    .banner__previous {
+        width: 32px;
+        height: 32px;
+    }
+    .banner__next_mob {
+        display: flex;
+        background: #202020;
+        width: 32px;
+        height: 32px;
+        border: none;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner__car_left-img {
+        height: 184px;
+        width: 84%;
+    }
+    .banner__description {
+        flex-direction: column;
+    }
+    .banner__description_left-desc h4 {
+        font-size: 18px;
+    }
+    .banner__description_left-desc p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .banner__description_left {
+        width: 100%;
+    }
+    .banner__description_left-schema {
+        height: 150px;
+    }
+    .banner__description_left-about li{
+        display: none;
+    }
+    .banner__description_left-about li:first-child {
+        width: 100%;
+        display: flex;
+        background: #202020;
+        color: #FFFFFF;
+        border-radius: 8px;
+        padding: 12px 20px;
+    }
+    .banner__description_left-about-characteristics-name {
+        font-size: 16px;
+    }
+    .banner__description_left-about-characteristics-designations{
+        font-size: 16px;
+    }
+    .banner__description_right {
+        width: 100%;
+    }
+    .delivery__wrrap_number{
+        font-size: 20px;
+        width: 70px;
+    }
+    .delivery__wrrap_button {
+        width: 32px;
+        height: 32px;
+    }
+    .delivery__wrrap_btn {
+        width: 32px;
+        height: 32px;
+    }
+    .delivery__wrrap_description-text{
+        font-size: 16px;
+    }
+    .banner__description_right-btn-night{
+        font-size: 16px;
+    }
+    .banner__description_right-btn-night{
+        font-size: 16px;
+    }
+    .interesting {
+        margin-top: 40px;
+    }
+    .interesting__title_btn {
+        width: 32px;
+        height: 32px;
+    }
+    .interesting__box {
+        flex-direction: column;
+    }
+    .interesting__box_container{
+        width: 100%;
+    }
+    .reviews {
+        margin-top: 40px;
+    }
+    .reviews__box {
+        flex-direction: column;
+    }
+    .reviews__box_desc {
+        width: 100%;
+        padding: 10px;
+    }
+    .reviews__box_desc-text {
+        font-size: 14px;
+    }
+    .reviews__box_desc-button {
+        font-size: 16px;
+    }
+    .contact {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .contact__title {
+        width: 100%;
+    }
+    .contact__title_subtitle-circle {
+        display: none;
+    }
+    .contact__title_bg {
+        height: 227px;
+    }
+    .contact__inputs {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .footer {
+        padding: 20px 10px;
+    }
+    .footer__wrrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__logo_input {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footer__logo_rating {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+.footer__contacts {
+    margin-top: 20px;
+    width: 100%;
+}
+.footer__links {
+    width: 100%;
+    align-items: flex-end;
+}
+.footer__buttons {
+    width: 100%;
+    margin-top: 20px;
+    gap: 20px;
+}
+}

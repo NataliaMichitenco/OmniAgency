@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <title>OmniAgency</title>
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo_logotip" src="./image/Icons/логотип Braver 1.svg" alt="logo">
+            <div class="header__logo_text">Производство полуприцепов
+            </div>
+        </div>
+        <nav class="header__nav">
+            <button class="header__nav_btn">Каталог <div class="header__nav_btn-circle"></div></button>
+            <button class="header__nav_btn">О заводе <div class="header__nav_btn-circle"></div></button>
+            <button class="header__nav_btn">Техника в наличии</button>
+            <div class="header__nav_btn">Сервис и гарантия <div class="header__nav_btn-circle"></div>
+                <ul class="header__nav_btn-open" >
+                    <li>Отзывы</li>
+                    <li>Гарантийное обслуживание</li>
+                    <li>Доставка</li>
+                    <li>Документы и сертификаты</li>
+                    <li>Сервисные центры</li>
+                </ul>
+            </div>
+            <button class="header__nav_btn">Покупателям <div class="header__nav_btn-circle"></div></button>
+            <button class="header__nav_btn">Контакты</button>
+        </nav>
+        <div class="header__number">
+            <p>8 (900) 777-77-77</p>
+            <button id="orderCall" class="header__number_btn" aria-expanded="false">Заказать звонок</button>
+            <div class="header__number_language">
+                <button class="header__number_language-ru">RU</button>
+                <button class="header__number_language-en">EN</button>
+            </div>
+        </div>
+        <div class="header__burger">
+            <button class="header__burger_btn"><img src="./image/Icons/burger.svg" alt="icon-burger"></button>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__car">
+                <div class="banner__car_left">
+                    <button class="banner__previous"> <img src="./image/Icons/Vector-left.svg" alt="button left"></button>
+                    <div class="banner__car_left-img"></div>
+                    <button class="banner__next_mob"><img src="./image/Icons/Vector-left.svg" alt="button right" style="transform: rotate(180deg);"></button>
+                </div>
+                <div class="banner__car_right">
+                    <div class="banner__car_right-img">
+                        <div class="banner__car_right-img-play"><img src="./image/Icons/play.svg" alt=""></div>
+                    </div>
+                    <button class="banner__next"><img src="./image/Icons/Vector-left.svg" alt="button right" style="transform: rotate(180deg);"></button>
+                </div>
+            </div>
+            <div class="banner__description">
+                <div class="banner__description_left">
+                    <div class="banner__description_left-nav">
+                        <nav>
+                            <ul class="banner__description_left-nav-breadcrumb">
+                                <li>Главная</li>
+                                <li>Каталог</li>
+                                <li>Зерновозы</li>
+                                <li>Зерновозы бортовые 46-60 м3 с вынесенной осью</li>
+                            </ul>
+                        </nav>
+                        <h2>Зерновозы бортовые 46-60 м3 <br> с вынесенной осью</h2>
+                    </div>
+                    <div class="banner__description_left-desc">
+                        <h4>О полуприцепе</h4>
+                        <p>Полуприцеп Т4-16V/VK предназначен для перевозки грузов массой до 27 000 килограммов, при этом объем кузова равен 110,6 кубическим метрам. Особое внимания заслуживает тентовая ткань, обладающая плотностью, равной 900 граммов на квадратный метр. Данный полуприцеп шторно-бортовой (крыша и бока полуприцепа сдвигаются отдельно), что очень удобно при погрузке-разгрузке как с боков полуприцепа, так и с верхней части. Для большего комфорта эксплуатации, с наружной стороны имеется специальная ручка предназначенная для сдвигания бокового тента.</p>
+                        <p>Полуприцеп Т4-16V/VK предназначен для перевозки грузов массой до 27 000 килограммов, при этом объем кузова равен 110,6 кубическим метрам.</p>
+                    </div>
+                    <div class="banner__description_left-schema"></div>
+                    <div class="banner__description_left-about">
+                        <ul class="banner__description_left-about-section">
+                            <li>Технические характеристики</li>
+                            <li>Комплектация</li>
+                            <li>Техническая документация</li>
+                        </ul>
+                        <div class="banner__description_left-about-bg">
+                            <div class="banner__description_left-about-characteristics">
+                                <p class="banner__description_left-about-characteristics-name">Габаритные размеры</p>
+                                    <p class="banner__description_left-about-characteristics-designations">длина: 12 100 мм <br>
+                                        ширина: 2 550 мм <br>
+                                        высота: 3 310 мм</p>
+                            </div>
+                            <div class="banner__description_left-about-characteristics">
+                                <p class="banner__description_left-about-characteristics-name">Объём</p>
+                                <p class="banner__description_left-about-characteristics-designations">46 - 603</p>
+                            </div>
+                            <div class="banner__description_left-about-characteristics">
+                                <p class="banner__description_left-about-characteristics-name">Количество осей</p>
+                                <p class="banner__description_left-about-characteristics-designations">4 оси</p>
+                            </div>
+                            <div class="banner__description_left-about-characteristics">
+                                <p class="banner__description_left-about-characteristics-name">Снаряженная масса</p>
+                                <p class="banner__description_left-about-characteristics-designations">от 7 200 кг</p>
+                            </div>
+                            <div class="banner__description_left-about-characteristics">
+                                <p class="banner__description_left-about-characteristics-name">Количество секций</p>
+                                <div class="">
+                                    <p class="banner__description_left-about-characteristics-designations">1 секция: 8 м3 <br>
+                                        2 секция: 10,3 м3 <br>
+                                        3 секция: 13,7 м3 </p>
+                                    <p class="banner__description_left-about-characteristics-designations">   Объемы секций указаны по порядку от ССУ</p>
+                                </div>
+                            </div>
+                            <div class="banner__description_left-about-characteristics">
+                                <p class="banner__description_left-about-characteristics-name">Подвеска и шины</p>
+                                <p class="banner__description_left-about-characteristics-designations">4 оси <br>
+                                    2 оси подъёмные <br>
+                                    тормозные механизмы барабанного / дискового типа <br>
+                                    шины (на усмотрение производителя) размерностью <br>
+                                    385/65 R22,5 с диском - 8 + 1 шт.</p>
+                            </div>
+                            <div class="banner__description_left-about-characteristics">
+                                <p class="banner__description_left-about-characteristics-name">Тормозная система</p>
+                                <p class="banner__description_left-about-characteristics-designations">пневматическая двухконтурная</p>
+                            </div>
+                            <div class="banner__description_left-about-characteristics">
+                                <p class="banner__description_left-about-characteristics-name">Электрооборудование</p>
+                                <p class="banner__description_left-about-characteristics-designations">электрооборудование Aspoeck / Hella / Ermax или аналог</p>
+                            </div>
+                            <div class="banner__description_left-about-characteristics">
+                                <p class="banner__description_left-about-characteristics-name">Высота ССУ</p>
+                                <p class="banner__description_left-about-characteristics-designations">1 150 мм</p>
+                            </div>
+                            <div class="banner__description_right-characteristics">
+                                <p class="banner__description_left-about-characteristics-name">Окраска</p>
+                                <p class="banner__description_left-about-characteristics-designations">обработка поверхности в дробеструйной камере <br>
+                                    покрытие грунтом с содержанием антикоррозийных элементов <br>
+                                    окраска премиальной эмалью</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner__description_right">
+                    <div class="banner__description_left-about-bg">
+                        <div class="banner__description_left-about-characteristics">
+                            <p class="banner__description_left-about-characteristics-designations">Объем</p>
+                            <p class="banner__description_left-about-characteristics-designations">46 - 603</p>
+                        </div>
+                        <div class="banner__description_left-about-characteristics">
+                            <p class="banner__description_left-about-characteristics-designations">Количество осей</p>
+                            <p class="banner__description_left-about-characteristics-designations">3 оси</p>
+                        </div>
+                        <div class="banner__description_left-about-characteristics">
+                            <p class="banner__description_left-about-characteristics-designations">Снаряженная масса</p>
+                            <p class="banner__description_left-about-characteristics-designations">от 5 900 кг</p>
+                        </div>
+                        <div class="banner__description_right-characteristics">
+                            <p class="banner__description_left-about-characteristics-designations">Стоимость</p>
+                            <span class="banner__description_right-price">4 120 000 ₽</span>
+                        </div>
+                        <p class="banner__description_right-text">Технические характеристики</p>
+                    </div>
+                    <div class="banner__description_right-btn">
+                        <button id="openRequest" class="banner__description_right-btn-night" aria-expanded="false">Оставить заявку</button>
+                        <button class="banner__description_right-btn-mini"><img src="./image/Icons/arroy-top.svg" alt="button"></button>
+                    </div>
+                    <div class="banner__description_right-btn">
+                        <button class="banner__description_right-btn-light">Получить консультацию</button>
+                        <button class="banner__description_right-btn-minilight"><img src="./image/Icons/arroy-top-night.svg" alt="button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="delivery">
+            <div class="delivery__wrrap">
+                <div class="delivery__wrrap_inner">
+                    <p class="delivery__wrrap_number">01</p>
+                    <div class="delivery__wrrap_description">
+                        <h3>Доставка</h3>
+                        <p class="delivery__wrrap_description-text">Компания Braver доставит прицепную технику до адреса Вашей компании, условия доставки обсуждаются индивидуально с учётом количества приобретаемой техники и Вашей территориальной удаленности.</p>
+                        <ul class="delivery__wrrap_description-title">Мы доставляем в города:
+                            <li class="delivery__wrrap_description-title-list">Москва</li>
+                            <li class="delivery__wrrap_description-title-list">Санкт-Петербург</li>
+                            <li class="delivery__wrrap_description-title-list">Нижний Новгород</li>
+                            <li class="delivery__wrrap_description-title-list">Нижний Новгород</li>
+                            <li class="delivery__wrrap_description-title-list">Екатеринбург</li>
+                            <li class="delivery__wrrap_description-title-list">Владивосток</li>
+                            <li class="delivery__wrrap_description-title-list">Новосибирск</li>
+                            <li class="delivery__wrrap_description-title-list">Казань</li>
+                            <li class="delivery__wrrap_description-title-list">Киров</li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="delivery__wrrap_button"><img src="./image/Icons/arroy-top.svg" alt=""></button>
+            </div>
+            <div class="delivery__wrrap">
+                <div class="delivery__wrrap_inner">
+                    <p class="delivery__wrrap_number">02</p>
+                    <h3>оплата</h3>
+                </div>
+                <button class="delivery__wrrap_btn"> <img src="./image/Icons/arroy-top-night.svg" alt="button" style="transform: rotate(90deg);"></button>
+            </div>
+            <div class="delivery__wrrap">
+                <div class="delivery__wrrap_inner">
+                    <p class="delivery__wrrap_number">03</p>
+                    <h3>гарантии</h3>
+                </div>
+                <button class="delivery__wrrap_btn"> <img src="./image/Icons/arroy-top-night.svg" alt="button" style="transform: rotate(90deg);"></button>
+            </div>
+        </section>
+        <section class="interesting">
+            <div class="interesting__title">
+                <h2>Может быть интересно</h2>
+                <div class="interesting__title_inner">
+                    <button class="interesting__title_btn"><img src="./image/Icons/Vector-left.svg" alt="button-left" ></button>
+                    <button class="interesting__title_btn"><img src="./image/Icons/Vector-left.svg" alt="button-right" style="transform: rotate(180deg);" ></button>
+                </div>
+            </div>
+            <div class="interesting__box">
+                <div class="interesting__box_container">
+                    <div class="interesting__box_container-img">
+                        <div class="interesting__box_container-img-pic"></div>
+                    </div>
+                    <h4>Зерновозы бортовые 46-60 м3 с вынесенной осью</h4>
+                    <div class="interesting__box_container-items">
+                        <p class="interesting__box_container-items-characteristics">Объем</p>
+                        <p class="interesting__box_container-items-characteristics">46 - 603</p>
+                    </div>
+                    <div class="interesting__box_container-items">
+                        <p class="interesting__box_container-items-characteristics">Количество осей</p>
+                        <p class="interesting__box_container-items-characteristics">3 оси</p>
+                    </div>
+                    <div class="interesting__box_container-item">
+                        <p class="interesting__box_container-items-characteristics">Снаряженная масса</p>
+                        <p class="interesting__box_container-items-characteristics">от 5 900 кг</p>
+                    </div>
+                </div>
+                <div class="interesting__box_container">
+                    <div class="interesting__box_container-img">
+                        <div class="interesting__box_container-img-picture"></div>
+                        <button class="interesting__box_container-img-btn">В наличии</button>
+                    </div>
+                    <h4>Бортовой полуприцеп 13,62 м</h4>
+                    <div class="interesting__box_container-items">
+                        <p class="interesting__box_container-items-characteristics">Объем</p>
+                        <p class="interesting__box_container-items-characteristics">46 - 603</p>
+                    </div>
+                    <div class="interesting__box_container-items">
+                        <p class="interesting__box_container-items-characteristics">Количество осей</p>
+                        <p class="interesting__box_container-items-characteristics">3 оси</p>
+                    </div>
+                    <div class="interesting__box_container-items">
+                        <p class="interesting__box_container-items-characteristics">Снаряженная масса</p>
+                        <p class="interesting__box_container-items-characteristics">от 5 900 кг</p>
+                    </div>
+                    <div class="interesting__box_container-item">
+                        <p class="interesting__box_container-items-characteristics">Стоимость</p>
+                        <span>4 120 000 ₽</span>
+                    </div>
+                </div>
+                <div class="interesting__box_container">
+                    <div class="interesting__box_container-img">
+                        <div class="interesting__box_container-img-image"></div>
+                    </div>
+                    <h4>Бортовой полуприцеп 13,62 м</h4>
+                    <div class="interesting__box_container-items">
+                        <p class="interesting__box_container-items-characteristics">Объем</p>
+                        <p class="interesting__box_container-items-characteristics">46 - 603</p>
+                    </div>
+                    <div class="interesting__box_container-items">
+                        <p class="interesting__box_container-items-characteristics">Количество осей</p>
+                        <p class="interesting__box_container-items-characteristics">3 оси</p>
+                    </div>
+                    <div class="interesting__box_container-items">
+                        <p class="interesting__box_container-items-characteristics">Снаряженная масса</p>
+                        <p class="interesting__box_container-items-characteristics">от 5 900 кг</p>
+                    </div>
+                    <div class="interesting__box_container-item">
+                        <p class="interesting__box_container-items-characteristics">Стоимость</p>
+                        <span>4 120 000 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="reviews__title">
+                <h2>отзывы</h2>
+                <span>Читать все отзывы</span>
+            </div>
+            <div class="reviews__box">
+                <div class="reviews__box_desc">
+                    <img src="./image/document.png" alt="Document" class="reviews__box_desc-img">
+                    <div class="">
+                        <h4>Имя Фамилия / Название компании</h4>
+                        <p class="reviews__box_desc-text">Полуприцеп Т4-16V/VK предназначен для перевозки грузов массой до 27 000 килограммов, при этом объем кузова равен 110,6 кубическим метрам. Особое внимания заслуживает тентовая ткань, обладающая плотностью, равной 900 граммов на квадратный метр. Особое внимания заслуживает тентовая ткань, обладающая плотностью, равной 900 граммов на квадратный метр.</p>
+                        <button class="reviews__box_desc-button">Подробнее</button>
+                    </div>
+                </div>
+                <div class="reviews__box_desc">
+                    <div class="reviews__box_desc-wrrap">
+                        <img src="./image/document.png" alt="Document" class="reviews__box_desc-img">
+                        <button class="reviews__box_desc-wrrap-btn"><img src="./image/Icons/arroy-top-night.svg" alt="button-arroy"></button>
+                    </div>
+                    <div class="">
+                        <h4>Имя Фамилия / Название компании</h4>
+                        <p class="reviews__box_desc-text">Полуприцеп Т4-16V/VK предназначен для перевозки грузов массой до 27 000 килограммов, при этом объем кузова равен 110,6 кубическим метрам. Особое внимания заслуживает тентовая.</p>
+                    </div>
+                </div>
+                <div class="reviews__box_desc">
+                    <img src="./image/document.png" alt="Document" class="reviews__box_desc-img">
+                    <div class="">
+                        <h4>Имя Фамилия / Название компании</h4>
+                        <p class="reviews__box_desc-text">Полуприцеп Т4-16V/VK предназначен для перевозки грузов массой до 27 000 килограммов, при этом объем кузова равен 110,6 кубическим метрам. Особое внимания заслуживает тентовая ткань, обладающая плотностью, равной 900 граммов на квадратный метр. Особое внимания заслуживает тентовая ткань, обладающая плотностью, равной 900 граммов на квадратный метр.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__button">
+                <button class="reviews__button_btn">Оставить отзыв</button>
+                <button class="reviews__button_mini"><img src="./image/Icons/arroy-top.svg" alt="button-arroy"></button>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact__title">
+                <div class="contact__title_bg"></div>
+                <div class="contact__title_subtitle">
+                    <div class="contact__title_subtitle-circle"></div>
+                    <h2 class="h2">Поможем подобрать модель и комплектацию техники</h2>
+                    <p>Оставьте свои контактные данные, и наш менеджер <br> 
+                        свяжется с Вами в ближайшее рабочее время</p>
+                </div>
+            </div>
+            <div class="contact__inputs">
+                <input type="text" placeholder="Ваше имя" class="contact__inputs_item">
+                <input type="number" placeholder="+7 (___) ___-__-__" class="contact__inputs_item">
+                <input type="email" placeholder="Email" class="contact__inputs_item">
+                <div class="contact__inputs_conditions">
+                    <div class="contact__inputs_conditions-circle"></div>
+                    <p  class="contact__inputs_conditions-text">Нажимая на кнопку, я принимаю условия <span class="contact__inputs_conditions-span">Политики  <br> конфиденциальности</span></p>
+                </div>
+                <div class="contact__inputs_buttons">
+                    <button class="contact__inputs_buttons-send">Отправить</button>
+                    <button class="contact__inputs_buttons-mini"><img src="./image/Icons/arroy-top.svg" alt=""></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrrap">
+            <div class="footer__logo">
+                <div class="">
+                <div class="footer__logo_inner">
+                    <img src="./image/Icons/логотип Braver 1.svg" alt="logo">
+                    <div class="header__logo_text">Производство полуприцепов
+                    </div>
+                </div>
+                <div class="footer__logo_input">
+                    <img src="./image/Icons/search.svg" alt="search">
+                    <input type="text" placeholder="Поиск" style="all: unset;"> 
+                </div>
+                </div>
+                <div class="footer__logo_rating">
+                    <div class="footer__logo_rating-yandex">
+                        <div class="footer__logo_rating-yandex-stars">
+                            <img src="./image/Icons/я.svg" alt="icon">
+                            <p>4,4</p>
+                            <div class="footer__logo_rating-yandex-stars-img"></div>
+                        </div>
+                        <p class="footer__logo_rating-yandex-text">Рейтинг организации в Яндексе</p>
+                    </div>
+                    <div class="footer__logo_rating-btn">
+                        <button class="footer__logo_rating-btn-icon"><img src="./image/Icons/foote.svg" alt="icon-vk"></button>
+                        <button class="footer__logo_rating-btn-icon"><img src="./image/Icons/icons.svg" alt="icon-whatsApp"></button>
+                        <button class="footer__logo_rating-btn-icon"><img src="./image/Icons/footer.svg" alt="icon-telegram"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__contacts">
+                <div class="footer__contacts_box">
+                    <p class="footer__contacts_box-text">Контакты:</p>
+                    <p class="footer__contacts_box-text">8 (900) 777-77-77</p>
+                    <p class="footer__contacts_box-text">info@braver.ru</p>
+                </div>
+                <div class="footer__contacts_box">
+                    <p class="footer__contacts_box-text">График работы:</p>
+                    <p class="footer__contacts_box-text">пн-пт с 9 до 18</p>
+                </div>
+                <div class="footer__contacts_box">
+                    <p class="footer__contacts_box-text">Адрес:</p>
+                    <p class="footer__contacts_box-text">г. Москва, <br>
+                     ул. Тверская 44/1, каб. 6</p>
+                </div>
+                <div class="footer__contacts_box">
+                    <p class="footer__contacts_box-text">Каталог</p>
+                </div>
+                <div class="footer__contacts_box">
+                    <p class="footer__contacts_box-text">Сортиментовозы</p>
+                </div>
+                <div class="footer__contacts_box">
+                    <p class="footer__contacts_box-text">Контейнеровозы</p>
+                </div>
+                <div class="footer__contacts_box">
+                    <p class="footer__contacts_box-text">Зерновозы</p>
+                </div>
+                <div class="footer__contacts_box">
+                    <p class="footer__contacts_box-text">Бортовые</p>
+                </div>
+                <div class="footer__contacts_box">
+                    <p class="footer__contacts_box-text">Шторно-бортовые</p>
+                </div>
+            </div>
+            <ul class="footer__links">
+                <li class="footer__contacts_box-text">О заводе</li>
+                <li class="footer__contacts_box-text">Новости</li>
+                <li class="footer__contacts_box-text">Контакты</li>
+                <li class="footer__contacts_box-text">Техника в наличии</li>
+                <li class="footer__contacts_box-text">Доставка</li>
+                <li class="footer__contacts_box-text">Сервисные центры</li>
+                <li class="footer__contacts_box-text">Гарантийное обслуживание</li>
+                <li class="footer__contacts_box-text">Документы и сертификаты</li>
+                <li class="footer__contacts_box-text">Дилеры</li>
+                <li class="footer__contacts_box-text">Отзывы</li>
+                <li class="footer__contacts_box-text">Вакансии</li>
+                <li class="footer__contacts_box-text">Лизинг</li>
+                <li class="footer__contacts_box-text">Trade-In</li>
+            </ul>
+            <div class="footer__buttons">
+                <button class="footer__buttons_call">Заказать звонок</button>
+                <div class="footer__buttons_gap">
+                    <div class="footer__buttons_language">
+                        <button class="footer__buttons_language-ru">RU</button>
+                        <button class="footer__buttons_language-en">EN</button>
+                    </div>
+                    <p class="footer__contacts_box-text">Работаем по России и СНГ</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__mail">
+            <p class="footer__mail_size">info@braver.ru</p>
+            <div class="footer__mail_inner">
+                <p class="footer__mail_inner-omni">Сделано в OMNI</p>
+                <p class="footer__mail_inner-data">© 2024 BRAVER</p>
+                <p class="footer__mail_inner-confidentiality">Политика конфиденциальности</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="/openOrder.js"></script>
+    <script src="/openRequest.js"></script>
+</body>
+</html>
