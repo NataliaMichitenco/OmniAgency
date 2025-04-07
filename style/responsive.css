@@ -97,7 +97,7 @@
         display: none;
     }
 
-    .header__nav { 
+    .header__nav {
         display: none;
     }
 
@@ -231,6 +231,11 @@
     }
     .contact__title {
         width: 100%;
+    }
+    .contact__title_subtitle {
+        top: 8px;
+        left: 17px;
+        gap: 10px;
     }
     .contact__title_subtitle-circle {
         display: none;
